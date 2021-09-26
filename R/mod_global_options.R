@@ -9,7 +9,7 @@
 #' @importFrom shiny NS tagList fileInput selectizeInput
 #' 
 
-globalVariables(c("HTML","ID","value","variable","x","y")) 
+globalVariables(c("HTML","ID","value","variable","x","y"),add = FALSE) 
 mod_global_options_ui <- function(id){
   ns <- NS(id)
   tagList(

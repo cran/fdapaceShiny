@@ -175,7 +175,7 @@ mod_FPCA_model_box_server <- function(id, raw_data, id_col, time_col, dark_mode)
       }
     },ignoreInit = TRUE)
     
-  utils::globalVariables(c("x", "variable", "y","value"))  
+  utils::globalVariables(c("x", "variable", "y","value"), add = FALSE)  
     
   observeEvent(input$delete_model,{
       removeUI(selector = sprintf('#%s', id))

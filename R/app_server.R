@@ -10,7 +10,7 @@
 #' 
 #' @noRd
 #' 
-globalVariables(c("HTML","ID","value","variable","x","y")) 
+globalVariables(c("HTML","ID","value","variable","x","y"), add = FALSE) 
 app_server <- function( input, output, session ) {
   
   # if(length(golem::get_golem_options("fpca_obj")) != 0){

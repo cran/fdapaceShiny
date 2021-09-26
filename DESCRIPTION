@@ -1,6 +1,6 @@
 Package: fdapaceShiny
 Title: A Shiny App for the 'fdapace' Package
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: person('Camden', 'Possinger', email = 'cpossinger@ucdavis.edu', role = c('cre', 'aut'))
 Description: Shiny app for the 'fdapace' package.
 License: MIT + file LICENSE
@@ -16,8 +16,8 @@ VignetteBuilder: knitr
 URL: https://github.com/cpossinger/fdapaceShiny
 BugReports: https://github.com/cpossinger/fdapaceShiny/issues
 NeedsCompilation: no
-Packaged: 2021-09-01 20:09:41 UTC; cam
+Packaged: 2021-09-26 20:24:53 UTC; cam
 Author: Camden Possinger [cre, aut]
 Maintainer: Camden Possinger <cpossinger@ucdavis.edu>
 Repository: CRAN
-Date/Publication: 2021-09-06 07:30:02 UTC
+Date/Publication: 2021-09-26 20:40:02 UTC
