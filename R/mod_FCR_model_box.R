@@ -76,7 +76,7 @@ tags$div(HTML("<script type='text/x-mathjax-config' >
 #' 
 #' 
 
-globalVariables(c("HTML","ID","value","variable","x","y")) 
+#globalVariables(c("HTML","ID","value","variable","x","y")) 
 mod_FCR_model_box_server <- function(id, raw_data, id_col, time_col,dark_mode){
   moduleServer( id, function(input, output, session){
     ns <- session$ns

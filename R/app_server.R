@@ -20,7 +20,7 @@ app_server <- function( input, output, session ) {
   #   mod_FPCA_server("FPCA_ui_1", golem::get_golem_options("fpca_obj"))
   # } 
 
-  globalVariables(c("HTML","ID","value","variable","x","y"))
+  #globalVariables(c("HTML","ID","value","variable","x","y"))
   
   init_user_select <- mod_global_options_server("global_options_ui_1")
   

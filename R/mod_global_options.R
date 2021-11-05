@@ -9,7 +9,7 @@
 #' @importFrom shiny NS tagList fileInput selectizeInput
 #' 
 
-globalVariables(c("HTML","ID","value","variable","x","y"),add = FALSE) 
+#globalVariables(c("HTML","ID","value","variable","x","y"),add = FALSE) 
 mod_global_options_ui <- function(id){
   ns <- NS(id)
   tagList(
@@ -38,7 +38,7 @@ mod_global_options_server <- function(id){
     ns <- session$ns
     
     
-   globalVariables(c("HTML","ID","value","variable","x","y")) 
+   #globalVariables(c("HTML","ID","value","variable","x","y")) 
     
     # Upload Raw Data and Save to Reactive Variable
     raw_data <- reactive({
