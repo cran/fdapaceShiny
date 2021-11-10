@@ -10,7 +10,8 @@
 #' 
 #' @noRd
 #' 
-globalVariables(c("HTML","ID","value","variable","x","y"), add = FALSE) 
+#globalVariables(c("HTML","ID","value","variable","x","y"), add = FALSE) 
+
 app_server <- function( input, output, session ) {
   
   # if(length(golem::get_golem_options("fpca_obj")) != 0){
@@ -21,6 +22,7 @@ app_server <- function( input, output, session ) {
   # } 
 
   #globalVariables(c("HTML","ID","value","variable","x","y"))
+  
   
   init_user_select <- mod_global_options_server("global_options_ui_1")
   

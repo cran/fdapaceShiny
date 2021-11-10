@@ -125,6 +125,10 @@ mod_FPCA_model_box_ui <- function(id){
 #' @importFrom dplyr case_when
 #' @importFrom utils globalVariables
 #' @importFrom tidyr drop_na
+ID <- NULL
+variable <- NULL
+x <- NULL
+y <- NULL
 mod_FPCA_model_box_server <- function(id, raw_data, id_col, time_col, dark_mode){
   # stopifnot(is.reactive(data))
   # stopifnot(is.reactive(id_col))
